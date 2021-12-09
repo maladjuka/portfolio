@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo.jpg">
+
+    <title>Djurdjica Grahovac portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script>
+$(document).ready(function(){
+  
+
+  $("#ham").click(function(){
+    var element=$('#dropdown');
+    element.slideToggle();
+
+  });
+
+
+});
+</script>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="dropdown" class="hide" >
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+    <header>
+        <img id="ham" class="hide" src="img/icon-menu.svg" alt="">
+
+        <div id="logo"><img src="img/logo.jpg" alt="lilly"></div>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#resume">RESUME</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <menu>
+        <section id="home">
+            <div class="personal-info">
+                <h1>
+                    <a href="" class="typewrite" data-period="2000"
+                        data-type='[ "Hi, I am Djurdjica Grahovac.", "I am Front end developer.", "I Love to Develop." ]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>
+
+                <p>Welcome to my portfolio page! I hope that You will be inspired to reach out to me and that Your visit
+                    will bare fruit to a new business success!
+
+                    Well? What are you waiting for? Take a look around! </p>
+
+
+
+                <div class="download">
+                    <a id="button" href="img/Djurdjica_Grahovac_-_Front-end_Developer.pdf" download>DOWNLOAD CV</a>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section id="services">
+            <div class="services-desc">
+
+                <h3>I can do these awesome things</h3>
+                <p>There is a lot that I already know, but so many new things to learn. I regularly update my skills and
+                    practices.
+                    That's the most interesting part.</p>
+            </div>
+            <div class="skills-wrapper">
+                <div class="skills "> <img src="img/icons8-html-5-50.png" alt="">
+                    <h5>HTML</h5>
+                    <p>A skill I mastered in detail.</p>
+                </div>
+                <div class="skills "> <img src="img/icons8-css-filetype-50.png" alt="">
+                    <h5>CSS</h5>
+                    <p>A skill I have mastered in detail, but there is always something new.</p>
+                </div>
+                <div class="skills "> <img src="img/icons8-javascript-logo-50.png" alt="">
+                    <h5>JavaScript</h5>
+                    <p>"If a return expression is not specified, then the return value will be undefined."</p>
+                </div>
+                <div class="skills "> <img src="img/icons8-source-code-64.png" alt="">
+                    <h5>AJAX</h5>
+                    <p>AJAX = Asynchronous JavaScript And XML. <br>
+                        AJAX ≠ AFC Ajax
+
+                    </p>
+                </div>
+                <div class="skills "> <img src="img/icons8-jquery-50.png" alt="">
+                    <h5>jQuery</h5>
+                    <p>My first library to open in the digital world.</p>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section id="about">
+            <div class="about-me">
+                <h4>About me</h4>
+                <br>
+                <br>
+                I'm Djurdjica. I am a Front end developer. I am looking for a job or internship to advance my career.
+                Money is not my motive, when I gain knowledge, it will just pay off.
+                I love black humor, bad jokes and good novels.
+            </div>
+            <div class="personal-informations">
+                <ul>
+                    <li><span class="bold">Name:</span><span>Djurdjica Grahovac</span></li>
+                    <li><Span class="bold">Email:</Span><span> <a
+                                href="mailto:stojanovic.djurdjica@gmail.com">stojanovic.djurdjica@gmail.com</a> </span>
+                    </li>
+                    <li><span class="bold">Mob:</span><span><a href="tel:+381642832575">0642832575</a></span></li>
+                    <li><span class="bold">Location:</span><span>Belgrade, Serbia</span></li>
+                </ul>
+
+            </div>
+        </section>
+
+
+        <section id="resume">
+            <div class="education">
+
+
+                <div class="schooling">
+                    <div class="period">Sep 2009 — May 2013</div>
+                    <div class="school">Gimnazija Leskovac <br>
+                        High School Degree
+                    </div>
+                </div>
+                <div class="schooling">
+                    <div class="period">Oct 2013 — Oct 2018</div>
+                    <div class="school">Faculty Of Security Studies <br>
+                        Bachelor Degree </div>
+                </div>
+                <div class="schooling"> <div class="period">Feb 2020 — Oct 2020</div>
+                <div class="school">Comtrade Code Academy <br>
+                    Certifcate of Front End development
+ </div></div>
+            </div>
+            <div class="skills-progress">
+                <label for="html">HTML</label>
+                <div class="progress">
+                    <div class="progress-value "></div>
+                </div>
+
+                <label for="css">CSS</label>
+                <div class="progress">
+                    <div class="progress-value1"></div>
+                </div>
+                <label for="JavaScript">JavaScript</label>
+                <div class="progress">
+                    <div class="progress-value2"></div>
+                </div>
+                <label for="AJAX">AJAX</label>
+                <div class="progress">
+                    <div class="progress-value3"></div>
+                </div>
+                <label for="jQuery">jQuery</label>
+                <div class="progress">
+                    <div class="progress-value4"></div>
+                </div>
+                <label for="api">API</label>
+                <div class="progress">
+                    <div class="progress-value5"></div>
+                </div>
+                <label for="react">REACT</label>
+                <div class="progress">
+                    <div class="progress-value6"></div>
+                </div>
+            </div>
+
+
+
+        </section>
+<section id="works">
+
+
+<div class="work"> <img src="img/shoesshop.jpg" alt="shoeshop">
+    <a href="https://xenodochial-brahmagupta-f3ef44.netlify.app/" target="_blank" class="hovered">View live</a>
+</div>
+<div class="work"> <img src="img/quotes.jpg" alt="quotes"> <a href="https://peaceful-leavitt-e2b01c.netlify.app/" target="_blank" class="hovered">View live</a></div>
+<div class="work"><img src="img/quote-fun.jpg" alt="funnyquotes"><a href="https://competent-mirzakhani-b962c4.netlify.app/" target="_blank" class="hovered">View live</a></div>
+<div class="work"><img src="img/todolist.jpg" alt="todoapp"><a href="https://dazzling-raman-9469fb.netlify.app/" target="_blank" class="hovered">View live</a></div>
+<div class="work"><img src="img/darklight.jpg" alt="darklight"><a href="https://dazzling-archimedes-b5548e.netlify.app/" target="_blank" class="hovered">View live</a></div>
+<div class="work"><img src="img/calc.jpg" alt="calc"><a href="https://stupefied-lamarr-c67a7a.netlify.app/" target="_blank" class="hovered">View live</a></div>
+<div class="work"><img src="img/elektro.jpg" alt="shopapp"><a href="https://clever-noether-5e1dcd.netlify.app/" target="_blank" class="hovered">View live</a></div>
+<div class="work"><img src="img/aksrdic.jpg" alt="aksrdic"><a href="https://frosty-kalam-6d4d88.netlify.app/" target="_blank" class="hovered">View live</a></div>
+
+
+
+
+
+
+</section>
+
+<section id="contact">
+
+
+    <form id="question-form" action="https://formsubmit.co/stojanovic.djurdjica@gmail.com" method="POST">
+        <h4>Contact me</h4>
+
+        <div> <input type="text" id="name" name="name" required placeholder="Name">
+        </div>
+        <div> <input type="email" id="mail" name="email" required placeholder="E-mail">
+
+            <input type="tel" id="tel" name="tel" required placeholder="Phone number">
+        </div>
+
+        <textarea name="textarea" id="question" cols="50" rows="15"></textarea>
+
+        <br><br> <br>
+        <button type="submit" class="download contactme" >Contact me</button>
+    </form>
+</section>
+
+
+
+
+    </menu>
+
+    <footer><p>made by Djurdjica Grahovac</p></footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
