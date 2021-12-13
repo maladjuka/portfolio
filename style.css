@@ -583,6 +583,9 @@ align-items: center;
  textarea{
    width: 80%;
  }
+       .personal-informations{
+align-items: flex-end;
+font-size: 15px; }
 
  .hovered{
    opacity: 1;
